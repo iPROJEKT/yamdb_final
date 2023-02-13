@@ -1,4 +1,3 @@
 # yamdb_final
 yamdb_final
-![Work+](https://github.com/github/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-![example event parameter](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+[![yamdb_workflow](https://github.com/iPROJEKT/yamdb_final/workflows/yamdb_workflow/badge.svg)]
