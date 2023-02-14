@@ -4,14 +4,13 @@ from rest_framework.routers import DefaultRouter
 from .views import (
     UserViewSet,
     TitleViewSet,
-    CategoryViewSet, 
+    CategoryViewSet,
     GenreViewSet,
     ReviewViewSet,
     CommentViewSet,
     send_code,
     get_jwt
 )
-
 
 router_v1 = DefaultRouter()
 router_v1.register('users', UserViewSet)
