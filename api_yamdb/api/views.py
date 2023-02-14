@@ -15,6 +15,7 @@ from rest_framework.permissions import (
 )
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import User, Title, Category, Genre, Review
 
 from .filters import TitleFilter
 from .permissions import (
@@ -34,8 +35,6 @@ from .serializers import (
     UserSerializer,
     ReviewSerializer
 )
-
-from reviews.models import User, Title, Category, Genre, Review
 
 
 @api_view(["POST"])
