@@ -2,13 +2,13 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
 from .views import (
-    UserViewSet, 
-    TitleViewSet, 
+    UserViewSet,
+    TitleViewSet,
     CategoryViewSet, 
     GenreViewSet,
-    ReviewViewSet, 
-    CommentViewSet, 
-    send_code, 
+    ReviewViewSet,
+    CommentViewSet,
+    send_code,
     get_jwt
 )
 
