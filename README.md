@@ -1,6 +1,6 @@
 # yamdb_final
 yamdb_final
-[![yamdb_workflow](https://github.com/iPROJEKT/yamdb_final/workflows/yamdb_workflow/badge.svg)
+[![yamdb_workflow](https://github.com/iPROJEKT/yamdb_final/workflows/yamdb_workflowв/badge.svg)
 # Описание проекта
 Этот проект направлен на изучение Dockera, для того чтоб было проще работать на удаленных серверах
 # Заполнение .env
