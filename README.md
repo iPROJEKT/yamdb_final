@@ -19,4 +19,4 @@ yamdb_final
 - ```docker-compose exec web python manage.py createsuperuser``` (создание суперюзера)
 - ```docker-compose exec web python manage.py collectstatic --no-input``` (сбор статических файлов)
 # Для того чтоб посмотеть мой проект
-## Перейдите по этой ссылке http://<ipбоевогосервера>/redoc/
+## Перейдите по этой ссылке http://158.160.60.212/redoc/
