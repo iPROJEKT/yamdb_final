@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: iprojekt/infra_actions:latest
+          tags: iprojekt/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
