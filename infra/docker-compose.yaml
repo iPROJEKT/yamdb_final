@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: iprojekt/yamdb:latestt
+    image: iprojekt/yamdb_final:latestt
     restart: always
     volumes:
       - static_value:/app/static/
